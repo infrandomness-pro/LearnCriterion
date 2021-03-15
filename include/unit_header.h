@@ -14,6 +14,7 @@
 /*  Prototype  */
 int my_strlen(const char *str);
 
-/*  ---------  */
+int my_strncmp(register const char *s1, register const char *s2, register size_t n);
+int my_strcmp(const char *s1, const char *s2);
 
 #endif /* !UNIT_HEADER_H_ */
